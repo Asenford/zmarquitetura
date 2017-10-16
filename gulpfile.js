@@ -17,7 +17,6 @@ gulp.task( 'server', ['build'], function() {
       directoryListing: false,
       open: false,
       host: devServerHost,
-      port: 3000
     }));
 });
 
