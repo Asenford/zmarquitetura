@@ -1,14 +1,12 @@
 {
-  "name": "angular-bootstrap-starter",
+  "name": "zm-arquitetura",
   "version": "1.0.0",
-  "description": "A starter project that combines AngularJS, Bootstrap, UI Router, UI Bootstrap, RequireJS in for starting building your website.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Andrew Challen",
-  "license": "MIT",
+  "author": "Victor Torres",
   "devDependencies": {
     "Respond.js": "https://github.com/scottjehl/Respond/tarball/86dea4ab1e93a275e2044965ab7452c3c1e2c6da",
     "angular": "^1.3.14",
