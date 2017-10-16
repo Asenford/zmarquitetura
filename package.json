@@ -2,6 +2,10 @@
   "name": "zm-arquitetura",
   "version": "1.0.0",
   "main": "gulpfile.js",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/Asenford/zmarquitetura.git"
+  },
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
