@@ -1,0 +1,25 @@
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="jumbotron">
+              <div class="starter-template" ng-controller="ResidenciasCtrl">
+                <h1>residencias</h1>
+                <hr class="line"/> 
+                <div ng-repeat="slide in residencias"  class="image-div">
+                  <a href="#/" class="imagefull">
+                    <img   class="imagefull" ng-src="{{slide.image}}"
+                     title="{slide.description}}">
+                      <h2 class="text-over">
+                      <span >{{slide.description}}</span></h2>
+                    </img>
+                  </a>
+                  <hr>
+                </div>
+              </div>
+            </div>
+          </div>
+          <footer class="center">
+                  <p>&copy; Company 2035</p>
+              </footer>
+        </div>
+      </div><!-- /.container -->

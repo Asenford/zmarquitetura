@@ -1,0 +1,42 @@
+
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron">
+        <div class="information">
+          <h2>Entre em contato com a gente:</h2>
+          <br>
+          <form name="consultoriaForm" method="post">
+            <div class="form-group" ng-controller="formCtrl">
+
+              <label for="nome">Nome:</label>
+              <input type="nome" class="form-control" ng-model="formulario.nome" placeholder="Nome" ng-required="true">
+
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" ng-model="formulario.email"  ng-required="true" placeholder="exemplo@gmail.com">
+
+              <label for="mensagem">Mensagem:</label>
+              <textarea type="mensagem " class="form-control " ng-model="formulario.mensagem"  ng-required="true" rows="5"></textarea>
+
+              <hr>
+              <div class="previewBlock">
+                <p>Preview</p>
+                <p>{{formulario.nome}}</p>
+                <p>{{formulario.email}}</p>
+                <p>{{formulario.mensagem}}</p>
+              </div>
+              <hr>
+
+
+              <button class="btn btn-primary btn-block" ng-click="" ng-disabled="consultoriaForm.$invalid">Enviar</button>
+
+              <input type="reset" value="Limpar" class="alt btn-danger btn-block" ng-click="clean()" ng-disabled="consultoriaForm.$pristine"/>
+
+            </div>
+        </div>
+      </div>
+  </div>
+      <footer class="center">
+        <p>&copy; Company 2014</p>
+      </footer>
+</div><!-- /.container -->

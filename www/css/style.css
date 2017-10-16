@@ -1,0 +1,123 @@
+body {
+  padding-top: 50px;
+  background-color: #F7F4E8;
+}
+.logo{
+  height: auto;
+  width: auto;
+  position: relative;
+}
+.logo-text{
+
+  font: bold 4vw/8vw Helvetica, Sans-Serif;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.bigtextbox {
+  line-height: 2em;
+}
+.jumbotron{
+  background-color: #F7F4E8;
+}
+.line {
+  height: 2px;
+  border: none;
+  color: #000;
+  background-color: #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.previewBlock {
+  border-style: ridge;
+  border-width: 0,5vw;
+  border-max-width: 1px;
+}
+h2 span {
+  color: white;
+  font: bold 4vw/8vw Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  margin-top: 10px;
+  background: #000000;
+  /* fallback color */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.text-over {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+}
+.menu-icon {
+  font-size: 30px;
+}
+.custom-navbar {
+  background-color: #F7F4E8;
+  background-image: false;
+}
+.image6 {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  position: relative;
+}
+.imagefull {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+.center {
+  text-align: center;
+}
+.link-custom {
+  color: black;
+}
+/* Have to set height explicity on ui-view
+to prevent collapsing during animation*/
+[ui-view] {
+  height: 65px;
+}
+.ui-view-container {
+  position: relative;
+}
+.slide.ng-hide-add,
+.slide.ng-hide-remove {
+  -webkit-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+  display: block!important;
+}
+.slide.ng-hide-add.ng-hide-add-active,
+.slide.ng-hide-remove {
+  opacity: 0;
+}
+.slide.ng-hide-add,
+.slide.ng-hide-remove.ng-hide-remove-active {
+  opacity: 1;
+}
+[ui-view].ng-enter,
+[ui-view].ng-leave {
+  position: absolute;
+  left: 0;
+  right: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+[ui-view].ng-enter {
+  opacity: 0;
+}
+[ui-view].ng-enter-active {
+  opacity: 1;
+}
+[ui-view].ng-leave {
+  opacity: 1;
+}
+[ui-view].ng-leave-active {
+  opacity: 0;
+}

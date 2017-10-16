@@ -1,0 +1,53 @@
+<!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container center logo-div">
+      <img class="logo col-md-2 col-md-offset-1 col-xs-3" src="imgs/logo.png">  
+        <h1 class="logo-text col-md-8 col-md-offset-0 col-xs-8 col-xs-offset-1 center"> ZM Arquitetura</h1>
+      </div>
+    </div>
+
+    <div class="container">
+    <hr class="line"/>  
+      <div class="row ">
+        <div class="col-md-6 col-sm-6 col-xs-6 slide image6" ng-controller="InterioresCtrl" ng-hide="ishide">
+          <a href="#/interiores">
+
+            <img class="image6 " ng-src="{{interiores[currentIndex].image}}">
+            <h2 class="text-over "><span>Interiores</span></h2>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-sm-6 col-xs-6 slide image6" ng-controller="ResidenciasCtrl" ng-hide="ishide">
+
+          <a href="#/residencias">
+
+            <img class="image6" ng-src="{{residencias[currentIndex].image}}">
+            <h2 class="text-over"><span>Residências</span></h2>
+          </a>
+          
+        </div>
+      </div>
+      <div class="row" style="margin-top: 2vw;">
+        <div class="col-md-12 col-sm-12 col-xs-12 slide imagefull" ng-hide="ishide"ng-controller="LojasCtrl" >
+
+          <a href="#/lojas">
+            <img class="imagefull" ng-src="{{lojas[currentIndex].image}}">
+            <h2 class="text-over "><span>Lojas e Escritórios</span></h2>
+            </img>
+          </a>
+          
+        </div>
+
+      </div>
+        <hr class="line"/>
+        <div class="col-md-12 center" ng-controller="nav">
+          
+          <h2>Quer fazer sua consultoria?</h2>
+          <p><a ng-click="reloadRoute('Contact')" class="btn btn-default" href="#/contact" role="button">Fale Conosco!</a></p>
+        </div>
+      </div>
+      <footer class="center">
+        <p>&copy; Company 2035</p>
+      </footer>
+    </div> <!-- /container -->
+
