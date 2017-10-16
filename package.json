@@ -2,15 +2,15 @@
   "name": "zm-arquitetura",
   "version": "1.0.0",
   "main": "gulpfile.js",
-  "repository": {
-  "type": "git",
-  "url": "git://github.com/Asenford/zmarquitetura.git"
-  },
   "scripts": {
     "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Victor Torres",
+  "repository": {
+  "type": "git",
+  "url": "git://github.com/Asenford/zmarquitetura.git"
+  },
   "devDependencies": {
     "Respond.js": "https://github.com/scottjehl/Respond/tarball/86dea4ab1e93a275e2044965ab7452c3c1e2c6da",
     "angular": "^1.3.14",
